@@ -7,3 +7,18 @@ body{
    font-size: 1.3rem;
 }
 
+header{
+   background-color: #2E323F;
+   text-align: center;
+}
+
+li{
+   list-style: none;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+

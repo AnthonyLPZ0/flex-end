@@ -38,9 +38,13 @@ img{
    height: 3em;/*dar alto*/
    padding: 0;/*quitar relleno*/
    border-radius: 50%;/*borde redondo*/
-   background-color: #6a6d77;/*color de fondo*/
+   background-color: #a0a2a8;/*color de fondo*/
    color: white;/*color contenido*/
    position: absolute;/*posicionamiento*/
    left: 0;/*posicionar el elemento a la izquierda*/
 }
 
+.nav-toggle:focus,
+.nav-toggle:hover{
+   opacity: .50;
+}

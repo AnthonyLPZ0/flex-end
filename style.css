@@ -51,6 +51,15 @@ img{
 }
 
 .hamburger{
-   width: 50%;
-   position: relative;
+   width: 50%;/*agrego tamaño al span*/
+   position: relative;/*posicionamiento del elemento*/
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after{
+   display: block;/*elemento de bloque*/
+   margin: 0 auto;
+   height: 3px;
+   background: white;
 }

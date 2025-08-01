@@ -8,6 +8,7 @@ body{
 }
 
 header{
+   padding: 1em 0;
    background-color: #2E323F;
    text-align: center;
 }
@@ -46,5 +47,10 @@ img{
 
 .nav-toggle:focus,
 .nav-toggle:hover{
-   opacity: .50;
+   opacity: .50;/*opacidad para cuando pase o mantenga el click*/
+}
+
+.hamburger{
+   width: 50%;
+   position: relative;
 }

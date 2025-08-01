@@ -26,6 +26,7 @@ img{
    max-width: 100%;/*ocupe el ancho maximo del div*/
 }
 
+/*CONTENEDOR GLOBAL*/
 .container{
    width: 80%;/*tamaño fijo*/
    max-width: 1100px;/*tamaño maximo*/
@@ -33,6 +34,7 @@ img{
    position: relative;/*para agregar una posicion al nav*/
 }
 
+/*CONTENEDOR DEL HAMBUGER*/
 .nav-toggle{
    border: 0;/*quitar el borde*/
    width: 3em;/*dar ancho*/
@@ -50,22 +52,33 @@ img{
    opacity: .50;/*opacidad para cuando pase o mantenga el click*/
 }
 
+/*HAMBURGER O 3 LINEAS */
 .hamburger{
    width: 50%;/*agrego tamaño al span*/
    position: relative;/*posicionamiento del elemento*/
 }
 
-.hamburger,
-.hamburger::before,
-.hamburger::after{
+.hamburger,/*creacion elemento*/
+.hamburger::before,/*se crea un elemento antes*/
+.hamburger::after{/*se crea un elemento despues*/
+
    display: block;/*elemento de bloque*/
    margin: 0 auto;/*centrar elemento*/
    height: 3px;/*altura*/
    background: white;/*color del elemento*/
 }
 
-.hamburger::before,
-.hamburger::after{
-   content: '';
-   width: 100%;
+.hamburger::before,/*contenido al elemento antes*/
+.hamburger::after{/*contenido al elemento despues*/
+
+   content: '';/*agrego otra linea sin nada*/
+   width: 100%;/*ancho*/
+}
+
+.hamburger::before{/*elemento antes*/
+   transform: translateY(-6px);/*se mueve hacia arriba*/
+}
+
+.hamburger::after{/*elemento despues*/
+   transform: translateY(3px);/*se mueve hacia abajo*/
 }

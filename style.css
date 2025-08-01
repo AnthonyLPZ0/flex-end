@@ -59,7 +59,13 @@ img{
 .hamburger::before,
 .hamburger::after{
    display: block;/*elemento de bloque*/
-   margin: 0 auto;
-   height: 3px;
-   background: white;
+   margin: 0 auto;/*centrar elemento*/
+   height: 3px;/*altura*/
+   background: white;/*color del elemento*/
+}
+
+.hamburger::before,
+.hamburger::after{
+   content: '';
+   width: 100%;
 }

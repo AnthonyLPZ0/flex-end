@@ -43,6 +43,7 @@ img{
    border-radius: 50%;/*borde redondo*/
    background-color: #a0a2a8;/*color de fondo*/
    color: white;/*color contenido*/
+   transition: opacity 250ms ease;
    position: absolute;/*posicionamiento*/
    left: 0;/*posicionar el elemento a la izquierda*/
 }
@@ -81,4 +82,9 @@ img{
 
 .hamburger::after{/*elemento despues*/
    transform: translateY(3px);/*se mueve hacia abajo*/
+}
+
+/*NAV*/
+.nav{
+   width: 100%;
 }

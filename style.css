@@ -108,4 +108,10 @@ img{
    position: absolute;/*posicionarlo sin ocupar espacio*/
 }
 
+.nav--visible{
+   visibility: visible;
+   height: auto;
+   position: relative;
+}
+
 

@@ -9,5 +9,5 @@ navToggle.addEventListener("click",() =>{
 
    //cuando se haga click en el nav-toggle
    //el nav se mostrara con todos sus links
-   nav.classList.toggle(".nav--visible");
+   nav.classList.toggle("nav--visible");
 })

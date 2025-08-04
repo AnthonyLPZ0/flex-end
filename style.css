@@ -103,7 +103,9 @@ img{
 
 /*visible el nav*/
 .nav{
-   visibility: hidden;
-   height: 0;
-   position: absolute;
+   visibility: hidden;/*para ocultar el nav*/
+   height: 0;/*para la altura*/
+   position: absolute;/*posicionarlo sin ocupar espacio*/
 }
+
+

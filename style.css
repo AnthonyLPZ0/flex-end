@@ -86,11 +86,18 @@ img{
 
 /*NAV*/
 .nav{
-   width: 100%;
+   width: 100%;/*ancho del nav*/
 }
 
+/*elemento ul*/
 .nav-list{
-   margin: 0;
-   padding: 0;
-   margin: 1.5em 0;
+   margin: 0;/*quitar margin*/
+   padding: 0;/*quitar padding*/
+   margin: 1.5em 0;/*agregar margin arriba y abajo*/
 }
+
+/*elemento li*/
+.nav-item{
+   margin-bottom: 0.75em;/*agregar margin abajo para separar*/
+}
+

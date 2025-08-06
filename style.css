@@ -137,3 +137,11 @@ h1{
 .hero-span{
    color: #A59678;
 }
+
+.btn{
+   display: inline-block;
+   font-weight: 900;
+   background-color: #A59678;
+   padding: 0.40em 1.5em;
+   border-radius: 100px;
+}

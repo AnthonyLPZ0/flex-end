@@ -98,7 +98,7 @@ img{
 
 /*elemento li*/
 .nav-item{
-   margin-bottom: 0.75em;/*agregar margin abajo para separar*/
+   margin-bottom: 0.9em;/*agregar margin abajo para separar*/
 }
 
 /*visible el nav*/
@@ -108,10 +108,15 @@ img{
    position: absolute;/*posicionarlo sin ocupar espacio*/
 }
 
+/*clase creada para el nav*/
 .nav--visible{
-   visibility: visible;
-   height: auto;
-   position: relative;
+   visibility: visible;/*se vuelve visible*/
+   height: auto;/*altura automatica*/
+   position: relative;/*retiene su posicion*/
 }
 
-
+.list--item-signUp{
+   padding: 10px;
+   background-color: #A59678;
+   border-radius: 50px;
+}

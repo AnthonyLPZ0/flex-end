@@ -125,6 +125,11 @@ img{
 /*SECTION HERO*/
 
 .hero{
-   padding: 100px 0;
-   background-color:  #6F737F;
+   padding: 40px 0;
+   background-color:  #3B4050;
+   color: white;
+}
+
+h1{
+   font-size: 60px;
 }

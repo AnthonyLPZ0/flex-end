@@ -115,8 +115,16 @@ img{
    position: relative;/*retiene su posicion*/
 }
 
+/*SEGUNDA CLASE DEL A CON EL TEXTO SIGN UP*/
 .list--item-signUp{
-   padding: 10px;
-   background-color: #A59678;
-   border-radius: 50px;
+   padding: 10px;/*relleno del elemento a todos los lados*/
+   background-color: #A59678;/*color de fondo*/
+   border-radius: 50px;/*el borde redondo*/
+}
+
+/*SECTION HERO*/
+
+.hero{
+   padding: 100px 0;
+   background-color:  #6F737F;
 }

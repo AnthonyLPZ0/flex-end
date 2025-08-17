@@ -154,8 +154,18 @@ h1{
 
 .subtitle{
    color: #A59678;
+   font-weight: bolder;
 }
 
-.subtitle ~ p{
+.subtitle ~ p{/*a los p que siguen despues de la clase subtitlte*/
    font-size: .75em;
+}
+
+/*Main aside*/
+.sidebar-text{
+   background-color: #3B4050;
+   color: white;
+   padding: 25px;
+   margin-bottom: 50px;
+   text-align: center;
 }

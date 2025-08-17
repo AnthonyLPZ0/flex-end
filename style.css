@@ -155,3 +155,7 @@ h1{
 .subtitle{
    color: #A59678;
 }
+
+.subtitle ~ p{
+   font-size: .75em;
+}

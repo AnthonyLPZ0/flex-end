@@ -123,10 +123,9 @@ img{
 }
 
 /*SECTION HERO*/
-
 .hero{
    padding: 40px 0;
-   background-color:  #3B4050;
+   background-color:  #3B4050;/*color de fondo*/
    color: white;
 }
 
@@ -144,4 +143,11 @@ h1{
    background-color: #A59678;
    padding: 0.40em 1.5em;
    border-radius: 100px;
+}
+
+/*SECTION INFO*/
+.info{
+   padding: 40px 0;
+   background-color: #e3e4e9;
+   text-align: center;
 }

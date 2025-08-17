@@ -162,6 +162,10 @@ h1{
 }
 
 /*Main aside*/
+.sidebar{
+   margin-top: 50px;
+}
+
 .sidebar-text{
    background-color: #3B4050;
    color: white;

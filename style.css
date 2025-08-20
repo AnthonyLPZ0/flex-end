@@ -192,6 +192,7 @@ h4 ~ p{
    background-color: #2E323F;
    color: #e3e4e9;
    padding: 50px 0;
+   text-align: center;
 }
 
 .footer-title{
@@ -200,4 +201,9 @@ h4 ~ p{
 
 .footer-subtitle{
    font-size: 1em;
+}
+
+.footer-text > ul > li{
+   font-size: 0.85em;
+   margin-bottom: 15px;
 }

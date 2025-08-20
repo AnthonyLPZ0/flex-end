@@ -209,9 +209,18 @@ h4 ~ p{
 }
 
 @media (min-width:700px){
+   
+   /*img{
+      height: 50%;
+   }*/
+
    .sidebar{
       display: flex;
       flex-direction: row;
       gap: 20px;
+   }
+
+   h4{
+      font-size: 1em;
    }
 }

@@ -207,3 +207,11 @@ h4 ~ p{
    font-size: 0.85em;
    margin-bottom: 15px;
 }
+
+@media (min-width:700px){
+   .sidebar{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+   }
+}

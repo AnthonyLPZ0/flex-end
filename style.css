@@ -210,6 +210,12 @@ h4 ~ p{
 
 @media (min-width:700px){
    
+   .info-div{
+      display: flex;
+      flex-direction: row;
+      gap: 5em;
+   }
+
    /*img{
       height: 50%;
    }*/

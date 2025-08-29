@@ -33,7 +33,7 @@ img{
 /*CONTENEDOR GLOBAL*/
 .container{
    width: 80%;/*tamaño fijo*/
-   max-width: 1100px;/*tamaño maximo*/
+   max-width: 1200px;/*tamaño maximo*/
    margin: 0 auto;/*para que se centre*/
    position: relative;/*para agregar una posicion al nav*/
 }
@@ -264,5 +264,11 @@ h4 ~ p{
 
    .four{
       grid-area: more;
+   }
+}
+
+@media (min-width:1000px) {
+   .nav-toggle{
+      display: none;
    }
 }

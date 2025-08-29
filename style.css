@@ -243,11 +243,12 @@ h4 ~ p{
       "footer-title footer-title"
       "about getting"
       "other more";
+      grid-template-columns: 1fr 1fr;
    }
 
    .footer-title{
       grid-area: footer-title;
    }
 
-   .
+   
 }

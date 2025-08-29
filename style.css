@@ -245,5 +245,9 @@ h4 ~ p{
       "other more";
    }
 
-   
+   .footer-title{
+      grid-area: footer-title;
+   }
+
+   .
 }

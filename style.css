@@ -250,5 +250,19 @@ h4 ~ p{
       grid-area: footer-title;
    }
 
-   
+   .one{
+      grid-area: about;
+   }
+
+   .two{
+      grid-area: getting;
+   }
+
+   .three{
+      grid-area: other;
+   }
+
+   .four{
+      grid-area: more;
+   }
 }

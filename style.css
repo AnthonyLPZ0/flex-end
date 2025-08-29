@@ -210,12 +210,14 @@ h4 ~ p{
 
 @media (min-width:700px){
    
+   /*SECTION INFO*/
    .info-div{
       display: flex;
       flex-direction: row;
       gap: 5em;
    }
 
+   /*SECTION MAIN*/
    /*img{
       height: 50%;
    }*/
@@ -233,4 +235,15 @@ h4 ~ p{
    h4 ~ p{
       font-size: 0.75em;
    }
+
+   /*SECTION FOOTER*/
+   .footer-div{
+      display: grid;
+      grid-template-areas: 
+      "footer-title footer-title"
+      "about getting"
+      "other more";
+   }
+
+   
 }

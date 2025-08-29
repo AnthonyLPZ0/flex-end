@@ -271,4 +271,13 @@ h4 ~ p{
    .nav-toggle{
       display: none;
    }
+
+   .nav{
+      visibility: visible;
+      display: flex;
+      align-items: center;
+      height: auto;
+      position: relative;
+      justify-content: flex-end; 
+   }
 }

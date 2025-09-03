@@ -308,4 +308,13 @@ h4 ~ p{
    .hero-text{
       width: 32%;
    }
+
+   .primary-content{
+      width: 62%;
+   }
+
+   .sidebar{
+      flex-direction: column;
+      width: 32%;
+   }
 }

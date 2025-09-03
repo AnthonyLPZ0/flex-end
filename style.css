@@ -301,5 +301,11 @@ h4 ~ p{
       margin: 0 0 0 2em;
    }
 
-   
+   h1{
+      width: 62%;
+   }
+
+   .hero-text{
+      width: 32%;
+   }
 }

@@ -317,4 +317,11 @@ h4 ~ p{
       flex-direction: column;
       width: 32%;
    }
+
+   .footer-div{
+      grid-template-areas: 
+      "footer-title footer-title footer-title footer-title"
+      "about getting other more";
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
 }
